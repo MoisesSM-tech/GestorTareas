@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class GestorTareas {
-	
-    private ArrayList<String> tareas = new ArrayList<>();
+
+    private List<String> tareas = new ArrayList<>();
     private Scanner scanner = new Scanner(System.in);
 
     public void agregarTarea() {

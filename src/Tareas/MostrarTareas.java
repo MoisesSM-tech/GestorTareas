@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class MostrarTareas {
     public void listarTareas(GestorTareas gestor) {
-        ArrayList<String> tareas = gestor.getListaOriginal();
+        ArrayList<String> tareas = (ArrayList<String>) gestor.getTareas();
         if (tareas.isEmpty()) {
             System.out.println("No hay tareas registradas.");
         } else {
